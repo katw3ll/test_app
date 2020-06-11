@@ -9,5 +9,5 @@ flask run
 ``` 
 Команда, чтобы проверить
 ``` 
-curl
+curl -F file=@test0.mp4 http://127.0.0.1:5000/post
 ```
